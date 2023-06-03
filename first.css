@@ -1,0 +1,113 @@
+body{
+    background: #050801;
+    font-family: 'Raleway', sans-serif;
+    padding: auto;
+    text-align: center;
+}
+img{
+    width: auto;
+    display: inline-block;
+    object-fit: contain;
+
+}
+.alone{
+    max-width: 1792px;
+}
+.column{
+    float: left;
+    width: 24.4%;
+    padding: 5px;
+}
+.collection::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.text{
+    padding: 20px;
+    padding-top: 40px;
+    color: aliceblue;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 740px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+.buttons{
+    align-items: center;
+    position: sticky;
+    top: 10px;
+}
+.type1{
+  padding: 25px 30px;
+  background-color: #050801;
+  color: #03e9f4;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.type1:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.type2{
+    padding: 25px 30px;
+    background-color: #050801;
+    color: #bb08e7;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+  
+.type2:hover{
+    background: #bb08e7;
+    color: #050801;
+    box-shadow: 0 0 5px #bb08e7,
+                0 0 25px #bb08e7,
+                0 0 50px #bb08e7,
+                0 0 200px #bb08e7;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.type3{
+    padding: 25px 30px;
+    background-color: #050801;
+    color: #10ee40;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+  
+.type3:hover{
+    background: #10ee40;
+    color: #050801;
+    box-shadow: 0 0 5px #10ee40,
+                0 0 25px #10ee40,
+                0 0 50px #10ee40,
+                0 0 200px #10ee40;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.ad{
+    position: fixed;
+    width: 100%;
+    margin-left: 0px;
+    z-index: 1;
+}
